@@ -9,8 +9,61 @@ li{
 .video-large-1{
 	width: 330px;
 	height: 300px;
-	margin: 20px;
+	margin: 15px;
 	float: left;
+}
+.myslide{
+	float: left;
+	width: 330px;
+	height: 300px;
+	position: absolute;
+	overflow: hidden;
+}
+.myslidetwo{
+	width: 2000px;
+	position: absolute;
+	/*margin-left: -680px;*/
+}
+.myslidetwo img{
+	/*float: left;*/
+}
+.daohang{
+	position: absolute;
+	top: 650px;
+	left: 400px;
+	width: 200px;
+
+}
+ol li{
+	/*list-style: none;
+	float: left;
+	font-size: 30px;
+	background-color: #FFF;
+	cursor: pointer;*/
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	background-color: white;
+	float: left;
+}
+ol li.current{
+	background:#0F0;
+}
+.video-inner1{
+	width: 60px;
+	height: 30px;
+	margin-left: 260px;
+	margin-top: 200px;
+	background-color: red;
+	line-height: 35px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 14px;
+	color: white;
+}
+.fa.fa-angle-right{
+	font-size: 20px;
 }
 .video-small-1{
 	width: 150px;
@@ -47,4 +100,91 @@ li{
 	height: 140px;
 	margin: 15px;
 	float: left;
+}
+.info1{
+	width: 160px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -140px;
+	background-color: black;
+	opacity:0.7;
+}
+.info2{
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -140px;
+	background-color: black;
+	opacity:0.7;
+}
+.info3{
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -140px;
+	background-color: black;
+	opacity:0.7;
+}
+.info4{
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -140px;
+	background-color: black;
+	opacity:0.7;
+}
+.info5{
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -140px;
+	background-color: black;
+	opacity:0.7;
+}
+.info6{
+	width: 150px;
+	height: 140px;
+	position: absolute;
+	overflow: hidden;
+	margin-top: -140px;
+	background-color: black;
+	opacity:0.7;
+}
+.t{
+	color: white;
+	font-size: 15px;
+
+}
+.up{
+	color: white;
+	font-size: 15px;
+}
+.play{
+	color: white;
+	font-size: 15px;
+}
+.gengduo{
+	width: 60px;
+	height: 25px;
+	position: absolute;
+	background-color: black;
+	opacity:0.7;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 240px;
+	margin-left: 250px;
+}
+a{
+	text-decoration: none;
+}
+.fa.fa-angle-right{
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	margin-bottom: 10px;
 }

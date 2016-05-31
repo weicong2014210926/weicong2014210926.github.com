@@ -1,12 +1,18 @@
 .line{
-  width: auto;
+  width: 1440px;
   height:200px;
 }
 .line+{
-  width: auto;
+  width: 1440px;
   height: 100px;
-  margin-left: 100px;
   border: 1px solid;
+  display:inline-block;
+}
+.line1-1 a{
+  text-decoration:none;
+}
+.line1-2 a{
+  text-decoration:none;
 }
 .line1-1{
   width: 100px;
@@ -18,18 +24,18 @@
 .line1-2{
   width: 100px;
   height: 40px;
-  margin-left: 300px;
+  margin-left: 350px;
   float: left;
   font-size: 20px;
   text-align:center;
 }
 .line1-red{
-  width: 80px;
-  height: 40px;
-  background-color: #F36;
+	width: 80px;
+	height: 40px;
+	background-color: #F36;
 }
 .search{
-  width: 600px;
+  width: 100px;
   height: 50px;
   position: relative;
   top:-50px;
@@ -39,10 +45,91 @@
   width: 50px;
   height:50px;
   float: left;
- 
 }
 .search2{
-  width: 100px;
+  width: 200px;
   height:50px;
   float: left;
+}
+.example {
+    width:1440px;
+    height:100px;
+}
+#nav {
+    display:inline-block;
+    width:1400px;
+    margin-top:-40px;
+}
+#nav li {
+    margin-left:20px;
+    float:left;
+    position:relative;
+    list-style:none;
+}
+#nav a {
+    text-decoration:none;
+    display:block;
+    padding:8px 20px;
+}
+
+#nav ul li a:hover {
+    background:#335599;
+    color:#fff;
+}
+
+#nav li:hover > ul {
+    opacity:1;
+    visibility:visible;
+}
+#nav ul {
+    opacity:0;
+    visibility:hidden;
+    padding:0;
+    width:105px;
+    position:absolute;
+    background-color: #CCC;
+    visibility:visible;
+    border:1px solid #7788aa;
+    z-index:5 ;
+}
+#nav ul li {
+    float:none;
+    margin:0;
+}
+#nav ul a {
+    font-weight:normal;
+}
+.num{
+  width: 30px;
+  height: 20px;
+  margin-left: 20px;
+  font-size: 10px;
+  background-color: pink;
+  border-radius: 10px;
+  text-align:center;
+}
+.sign{
+  width: 1440px;
+  height: 1000px;
+}
+.sign1{
+  width: 400px;
+  height: 50px;
+  margin-left: 500px;
+  text-align:center;
+  font-size: 40px;
+}
+.sign2{
+  width: 400px;
+  height: 50px;
+  margin-left: 500px;
+  margin-top: 10px;
+}
+.sign3{
+  width: 50px;
+  height: 30px;
+  background-color: red;
+  margin-left: 775px;
+  margin-top: 10px;
+  font-size: 25px;
 }

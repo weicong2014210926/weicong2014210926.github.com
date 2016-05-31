@@ -1,0 +1,134 @@
+.video_box{
+	width: 600px;
+	height: 330px;
+	border:solid 1px lightgray;
+	float: left;
+}
+.box_udv{
+	width: 600px;
+	height: 40px;
+	border:solid 1px lightgray;
+	position: relative;
+	top: 331px;
+}
+.button_udv_dm{
+	width: 40px;
+	height: 40px;
+	border-right: solid 1px lightgray;
+}
+.button_udv_color{
+	width: 40px;
+	height: 40px;
+	border-right: solid 1px lightgray;
+	position: relative;
+	top: -40px;
+	left: 41px;
+}
+.text_udv{
+	position: absolute;
+	top: 0px;
+	left: 88px;
+	line-height: 40px;
+}
+.dm_color_class{
+	position: relative;
+	top: -280px;
+	left: 13px;
+	cursor: pointer;
+}
+.button_dm_class{
+	cursor: pointer;
+	position: relative;
+	top: -320px;
+	left: 12px;
+}
+.video_right{
+	width: 220px;
+	height: 371px;
+	border: solid 1px lightgray;
+	position: relative;
+	left: 601px;
+	top: -42px;
+}
+.tb_rvideo{
+	height: 373px;
+	width: 200px;
+	border:	solid 1px lightgray;
+	position: relative;
+	top: -42px;
+	left: -1px;
+}
+.nums{
+	width: 70px;
+	height: 40px;
+	border-bottom: solid 1px lightgray;
+	border-right: solid 1px lightgray;
+	position: relative;
+	left: 601px;
+	top: -414px;
+	font-size: 9px;
+}
+.rank{
+	height: 9px;
+	width: 70px;
+	position: relative;
+	top: -469px;
+	left: 670px;
+	border: solid 1px lightgray;
+	font-size: 9px;
+}
+.coins{
+	height: 35px;
+	width: 70px;
+	position: relative;
+	top: -470px;
+	left: 670px;
+	font-size: 9px;
+	border: solid 1px lightgray;
+}
+.audience{
+	width: 62px;
+	height: 55px;
+	position: relative;
+	top: -525px;
+	left: 739px;
+	font-size: 9px;
+	border: solid 1px lightgray;
+	text-align: center;
+}
+.forbid{
+	position: relative;
+	left: 601px;
+	top: -526px;
+	height: 20px;
+	width: 70px;
+	border:solid 1px lightgray;
+	font-size: 11px;
+}
+.hr_dm{
+	position: relative;
+	left: 670px;
+	top: -549px;
+	height: 20px;
+	width: 66px;
+	border:solid 1px lightgray;
+	font-size: 11px;
+}
+.history{
+	position: relative;
+	left: 735px;
+	top: -572px;
+	height: 20px;
+	width: 66px;
+	border:solid 1px lightgray;
+	font-size: 11px;
+}
+.else{
+	position: relative;
+	top:-573px;
+	left: 601px;
+	border:	solid 1px lightgray;
+	height: 20px;
+	width: 200px;
+	font-size: 12px;
+}
