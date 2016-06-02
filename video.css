@@ -69,28 +69,28 @@
 	font-size: 9px;
 }
 .rank{
-	height: 9px;
+	height: 10px;
 	width: 70px;
 	position: relative;
-	top: -469px;
+	top: -472px;
 	left: 670px;
 	border: solid 1px lightgray;
 	font-size: 9px;
 }
 .coins{
-	height: 35px;
+	height: 37px;
 	width: 70px;
 	position: relative;
-	top: -470px;
+	top: -473px;
 	left: 670px;
 	font-size: 9px;
 	border: solid 1px lightgray;
 }
 .audience{
 	width: 62px;
-	height: 55px;
+	height: 58px;
 	position: relative;
-	top: -525px;
+	top: -531px;
 	left: 739px;
 	font-size: 9px;
 	border: solid 1px lightgray;
@@ -99,7 +99,7 @@
 .forbid{
 	position: relative;
 	left: 601px;
-	top: -526px;
+	top: -532px;
 	height: 20px;
 	width: 70px;
 	border:solid 1px lightgray;
@@ -108,7 +108,7 @@
 .hr_dm{
 	position: relative;
 	left: 670px;
-	top: -549px;
+	top: -554px;
 	height: 20px;
 	width: 66px;
 	border:solid 1px lightgray;
@@ -117,7 +117,7 @@
 .history{
 	position: relative;
 	left: 735px;
-	top: -572px;
+	top: -576px;
 	height: 20px;
 	width: 66px;
 	border:solid 1px lightgray;
@@ -125,7 +125,7 @@
 }
 .else{
 	position: relative;
-	top:-573px;
+	top:-577px;
 	left: 601px;
 	border:	solid 1px lightgray;
 	height: 20px;

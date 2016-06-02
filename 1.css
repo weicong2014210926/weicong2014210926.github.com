@@ -24,7 +24,7 @@
 .line1-2{
   width: 100px;
   height: 40px;
-  margin-left: 350px;
+  margin-left: 200px;
   float: left;
   font-size: 20px;
   text-align:center;
@@ -35,11 +35,11 @@
 	background-color: #F36;
 }
 .search{
-  width: 100px;
+  width: 500px;
   height: 50px;
   position: relative;
   top:-50px;
-  left:900px;
+  left:800px;
 }
 .search1{
   width: 50px;
@@ -47,7 +47,7 @@
   float: left;
 }
 .search2{
-  width: 200px;
+  width: 100px;
   height:50px;
   float: left;
 }
@@ -59,6 +59,8 @@
     display:inline-block;
     width:1400px;
     margin-top:-40px;
+    position: relative;
+    top:50px;
 }
 #nav li {
     margin-left:20px;
@@ -80,6 +82,7 @@
 #nav li:hover > ul {
     opacity:1;
     visibility:visible;
+    z-index:5 ;
 }
 #nav ul {
     opacity:0;
@@ -88,9 +91,7 @@
     width:105px;
     position:absolute;
     background-color: #CCC;
-    visibility:visible;
     border:1px solid #7788aa;
-    z-index:5 ;
 }
 #nav ul li {
     float:none;
@@ -126,9 +127,8 @@
   margin-top: 10px;
 }
 .sign3{
-  width: 50px;
+  width: 100px;
   height: 30px;
-  background-color: red;
   margin-left: 775px;
   margin-top: 10px;
   font-size: 25px;
